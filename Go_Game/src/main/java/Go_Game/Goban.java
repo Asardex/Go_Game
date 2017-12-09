@@ -37,7 +37,6 @@ public class Goban {
 			System.out.println("");
 		}
 	}
-}
 
 
 //	croix simple 0
@@ -75,3 +74,4 @@ public class Goban {
 				{8,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,9}			
 		};
 
+}
