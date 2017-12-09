@@ -4,33 +4,41 @@ public class Position {
 	private int x;
 	private int y;
 	
-	Position(int a, int b)
+	Position(int x, int y)
 	{
-		this.x = a;
-		this.y = b;
+		if ((x >= 0) && (x <= 18))
+		{
+			this.x = x;
+		}
+		if ((y >= 0) && (y <= 18))
+		{
+			this.y = y;
+		}
 	}
 
 	public int getX()
 	{
 		return x;
 	}
-	public void setX(int a)
+	public void setX(int x)
 	{
-		if ((a>=0)&&(a<=18))
+		if ((x >= 0) && (x <= 18))
 		{
-			this.x=a;
+			this.x = x;
 		}
+		return;
 	}
+	
 	public int getY()
 	{
 		return y;
 	}
-	public void setY(int a)
+	public void setY(int y)
 	{
-		if ((a>=0)&&(a<=18))
+		if ((y >= 0) && (y <= 18))
 		{
-			this.y=a;
+			this.y = y;
 		}
+		return;
 	}
-	
 }

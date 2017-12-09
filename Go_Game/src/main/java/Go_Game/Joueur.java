@@ -8,4 +8,10 @@ public class Joueur {
 		score = 0;
 		this.couleur = couleur;
 	}
+	
+	void calculerScore(Goban goban) {
+		//Calculer score depuis le terrain
+		score = 0;
+		return;
+	}
 }

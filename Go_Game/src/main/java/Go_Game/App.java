@@ -44,8 +44,17 @@ public class App
     	Joueur J1 = new Joueur(Couleur.Blanc);
     	Joueur J2 = new Joueur(Couleur.Noir);
     	
-    	System.out.println("\nDebut de la partie.");
+    	Goban goban = new Goban();
     	
+    	int finDuGame = 0;
+    	
+    	System.out.println("\nDebut de la partie.");
+    	/*
+    	while(finDuGame != 2) {
+    		
+    	}
+    	*/
+    	goban.afficher();
     	
     	System.out.println("Fin de la partie.");
 		

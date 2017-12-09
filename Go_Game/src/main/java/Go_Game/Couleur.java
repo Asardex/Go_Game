@@ -1,6 +1,7 @@
 package Go_Game;
 
 public enum Couleur {
-	Blanc,
-	Noir;
+	Vide, //+
+	Blanc, //B
+	Noir; //N
 }
