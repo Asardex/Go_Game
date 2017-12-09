@@ -20,7 +20,8 @@ public class Goban {
 	public void afficher() {
 		for(int i = 0; i < HAUTEUR; i++) {
 			for(int j = 0; j < LARGEUR; j++) {
-				switch(pierres.get(i).getCouleur()) {
+				int index = i * LARGEUR + j;
+				switch(pierres.get(index).getCouleur()) {
 					case Vide:
 						System.out.print("+");
 						break;
