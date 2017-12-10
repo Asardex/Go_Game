@@ -55,8 +55,8 @@ public class App
     	Joueur joueur;
     	
     	if(couleur == Couleur.Blanc) {
-        	J1 = new Joueur("Marine", Couleur.Blanc);
-        	J2 = new Joueur("Quentin", Couleur.Noir);
+        	J2 = new Joueur("Marine", Couleur.Blanc);
+        	J1 = new Joueur("Quentin", Couleur.Noir);
     	} else {
         	J1 = new Joueur("Marine", Couleur.Noir);
         	J2 = new Joueur("Quentin", Couleur.Blanc);
@@ -75,7 +75,7 @@ public class App
 			else
 				joueur = J1;
 			
-			if(tour(joueur) == 0) { //Si le joueur joue
+			if(tour(joueur, finDuGame) == 0) { //Si le joueur joue
 				finDuGame = 0; //Alors on remet à 0
 				AfficherScore();
 			} else { //Si il ne joue pas, on enregistre
@@ -96,7 +96,7 @@ public class App
 		return;
 	}
     
-    private int tour(Joueur joueur) {
+    private int tour(Joueur joueur, int passe) {
     	//renvoie 0 si le joueur à jouer, 1 si il passe
     	int choix = 0;
     	int x, y;
@@ -112,16 +112,16 @@ public class App
 				System.out.println("Entrez un chiffre");
     	}while(choix != 0 && choix != 1); //On demande de jouer ou de passer
     	
-    	if(choix == 0) {
-    		//Si le joueur veut jouer
+    	if((choix == 0)&&(passe ==0)) {
+    		//Si le joueur veut jouer et que son adversaire n'a pas passé
     		do {
-	    		System.out.print("Entre les coordonées (sous la forme '(x;y)') : ");
+	    		System.out.print("Entre les coordonées (sous la forme x y) : ");
 	    		sc = new Scanner(System.in);
 	    		if(sc.hasNextInt()) { //Si il y a un entier à lire
 	    			x = sc.nextInt(); //On le lit
 	    			if(x >= 0 && x <= 18 && sc.hasNextInt()) { //Si l'entier lu est entre 0 et 18, et qu'il y a un deuxième entier à lire
 	    				y = sc.nextInt(); //On lit le deuxième entier
-	    				if(y >= 0 && x <= 18) { // si le deuxième entier est entre 0 et 18
+	    				if(y >= 0 && y <= 18) { // si le deuxième entier est entre 0 et 18
 	    					isOk = true; // Tout est bon
 	    					pos = new Position(x, y); //On garde la position
 	    					if(!goban.poserPierre(joueur, pos)) // On la donne au Goban pour la poser : si on ne peut pas, isNotOk
@@ -131,6 +131,10 @@ public class App
 	    		}
     		}while(isOk == false); //Tant que les coordonnées ne sont pas valides, on redemande une pos.
     			
+    	}else
+    		//si l'adversaire a passé et que le joueur veut jouer on retourne à l'autre joueur
+    	{
+    		return choix;
     	}
 		return choix;
     }
@@ -155,7 +159,7 @@ public class App
 		Couleur couleur = Couleur.Vide;
 		String str;
 		do {
-	    	System.out.println("De quelle couleur veut être le premier joueur ? ('Blanc' ou 'Noir')");
+	    	System.out.println("Choix du noir si tu veux commencer, ou blanc pour etre second ('Blanc' ou 'Noir')");
 			sc = new Scanner(System.in);
 			if(sc.hasNextLine()) {
 				 str = new String(sc.nextLine());
@@ -172,7 +176,7 @@ public class App
 	}
 	
 	final private void commentJouer() {
-    	System.out.println("\nEntrez les coordonées de la pierre que vous voulez placer sous la forme (1;19).\n\n");
+    	System.out.println("\nEntrez les coordonées de la pierre que vous voulez placer sous la forme (1 19).\n\n");
     	return;
 	}
 
