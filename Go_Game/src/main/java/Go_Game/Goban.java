@@ -39,7 +39,16 @@ public class Goban {
 		}
 	}
 
-
+	public boolean poserPierre(Joueur joueur, Position pos) {
+		int index = pos.getY() * LARGEUR + pos.getX();
+		if(pierres.get(index).getCouleur() == Couleur.Vide) {
+			pierres.get(index).poser(joueur.getCouleur());
+			return true;
+		} else {
+			System.out.println("Coup invalide : place déjà prise");
+			return false;
+		}
+	}
 //	croix simple 0
 //	croix point	1
 //	bord haut 2
