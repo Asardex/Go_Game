@@ -49,6 +49,13 @@ public class Goban {
 			return false;
 		}
 	}
+	
+	public void capturerPierre(Joueur joueur, Position pos) {
+		int index = pos.getY() * LARGEUR + pos.getX();
+		// il faudrait cree une chaine a chaque pierre posée pour avoir des chaines a supprimer
+		// et faire le test a chaque fois qu'on pose une pierre
+		
+	}
 //	croix simple 0
 //	croix point	1
 //	bord haut 2

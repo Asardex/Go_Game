@@ -126,6 +126,7 @@ public class App
 	    					pos = new Position(x, y); //On garde la position
 	    					if(!goban.poserPierre(joueur, pos)) // On la donne au Goban pour la poser : si on ne peut pas, isNotOk
 	    						isOk = false;
+	    					goban.capturerPierre(joueur, pos);
 	    				}
 	    			}
 	    		}
@@ -134,6 +135,7 @@ public class App
     	}else
     		//si l'adversaire a passé et que le joueur veut jouer on retourne à l'autre joueur
     	{
+    		
     		return choix;
     	}
 		return choix;
@@ -176,14 +178,16 @@ public class App
 	}
 	
 	final private void commentJouer() {
-    	System.out.println("\nEntrez les coordonées de la pierre que vous voulez placer sous la forme (1 19).\n\n");
+    	System.out.println("\nEntrez les coordonées de la pierre que vous voulez placer sous la forme x y.\n 0 0 se situe en haut a gauche\n 0 18 se situe en haut a droite \n"
+    			+ " 18 0 se situe en bas a gauche\n 18 18 se situe en bas a droite\n");
     	return;
 	}
 
 	final private void regles() {
     	System.out.println("\nDeux camps s'opposent pour obtenir le plus grand territoire : "
     			+ "les pierres blanches et les pierres noires.\n"
-    			+ "Les joueurs peuvent passer leur tour.\n"
+    			+ "Les joueurs peuvent passer leur tour,"
+    			+ "cependant si l'autre joueur ne passe pas on revient au joueur précédent \n"
     			+ "Si les deux joueurs passent leur tour l'un apres l'autre, "
     			+ "le jeu est terminé et les scores sont comptés.\n"
     			+ "Les pierres sont jouées sur les intersections.\n"
