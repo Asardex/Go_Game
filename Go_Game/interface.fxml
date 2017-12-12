@@ -78,1807 +78,1807 @@
                <children>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/coin_haut_gauche.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/coin_haut_gauche.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_haut.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_haut.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_haut.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_haut.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_haut.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_haut.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_haut.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_haut.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_haut.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_haut.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_haut.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_haut.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_haut.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_haut.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_haut.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_haut.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_haut.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_haut.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="10">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_haut.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_haut.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="11">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_haut.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_haut.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="12">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_haut.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_haut.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="13">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_haut.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_haut.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="14">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_haut.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_haut.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="15">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_haut.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_haut.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="16">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_haut.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_haut.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="17">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_haut.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_haut.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="18">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/coin_haut_droite.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/coin_haut_droite.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="1">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="1">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="1">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="1">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="1">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="1">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.rowIndex="1">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.rowIndex="1">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.rowIndex="1">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="10" GridPane.rowIndex="1">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="11" GridPane.rowIndex="1">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="12" GridPane.rowIndex="1">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="13" GridPane.rowIndex="1">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="14" GridPane.rowIndex="1">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="15" GridPane.rowIndex="1">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="16" GridPane.rowIndex="1">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="17" GridPane.rowIndex="1">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="2">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="2">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="2">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="2">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="2">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="2">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.rowIndex="2">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.rowIndex="2">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.rowIndex="2">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="10" GridPane.rowIndex="2">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="11" GridPane.rowIndex="2">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="12" GridPane.rowIndex="2">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="13" GridPane.rowIndex="2">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="14" GridPane.rowIndex="2">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="15" GridPane.rowIndex="2">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="16" GridPane.rowIndex="2">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="17" GridPane.rowIndex="2">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="3">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="3">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="3">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="3">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="3">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.rowIndex="3">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.rowIndex="3">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="10" GridPane.rowIndex="3">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="11" GridPane.rowIndex="3">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="12" GridPane.rowIndex="3">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="13" GridPane.rowIndex="3">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="14" GridPane.rowIndex="3">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="16" GridPane.rowIndex="3">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="17" GridPane.rowIndex="3">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="4">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="4">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="4">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="4">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="4">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="4">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.rowIndex="4">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.rowIndex="4">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.rowIndex="4">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="13" GridPane.rowIndex="6">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="12" GridPane.rowIndex="6">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="11" GridPane.rowIndex="6">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="10" GridPane.rowIndex="6">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.rowIndex="6">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.rowIndex="6">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.rowIndex="6">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="6">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="6">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="6">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="6">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="6">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="6">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="17" GridPane.rowIndex="5">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="16" GridPane.rowIndex="5">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="15" GridPane.rowIndex="5">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="14" GridPane.rowIndex="5">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="13" GridPane.rowIndex="5">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="12" GridPane.rowIndex="5">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="11" GridPane.rowIndex="5">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="10" GridPane.rowIndex="5">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.rowIndex="5">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.rowIndex="5">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.rowIndex="5">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="5">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="5">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="5">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="5">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="5">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="5">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="17" GridPane.rowIndex="4">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="16" GridPane.rowIndex="4">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="15" GridPane.rowIndex="4">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="14" GridPane.rowIndex="4">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="13" GridPane.rowIndex="4">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="12" GridPane.rowIndex="4">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="11" GridPane.rowIndex="4">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="10" GridPane.rowIndex="4">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="3">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_point.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_point.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.rowIndex="3">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_point.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_point.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="15" GridPane.rowIndex="3">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_point.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_point.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="9">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_point.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_point.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.rowIndex="9">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_point.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_point.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="15" GridPane.rowIndex="9">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_point.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_point.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="15">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_point.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_point.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.rowIndex="15">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_point.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_point.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="15" GridPane.rowIndex="15">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_point.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_point.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="18">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/coin_bas_gauche.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/coin_bas_gauche.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="18" GridPane.rowIndex="18">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/coin_bas_droite.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/coin_bas_droite.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_gauche.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_gauche.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_gauche.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_gauche.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="3">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_gauche.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_gauche.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="4">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_gauche.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_gauche.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="5">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_gauche.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_gauche.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="6">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_gauche.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_gauche.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="7">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_gauche.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_gauche.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="8">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_gauche.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_gauche.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="9">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_gauche.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_gauche.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="10">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_gauche.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_gauche.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="11">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_gauche.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_gauche.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="12">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_gauche.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_gauche.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="13">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_gauche.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_gauche.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="14">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_gauche.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_gauche.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="15">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_gauche.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_gauche.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="16">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_gauche.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_gauche.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="17">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_gauche.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_gauche.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="18" GridPane.rowIndex="1">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_droite.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_droite.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="18" GridPane.rowIndex="2">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_droite.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_droite.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="18" GridPane.rowIndex="3">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_droite.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_droite.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="18" GridPane.rowIndex="4">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_droite.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_droite.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="18" GridPane.rowIndex="5">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_droite.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_droite.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="18" GridPane.rowIndex="6">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_droite.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_droite.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="18" GridPane.rowIndex="7">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_droite.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_droite.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="18" GridPane.rowIndex="8">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_droite.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_droite.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="18" GridPane.rowIndex="9">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_droite.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_droite.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="18" GridPane.rowIndex="10">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_droite.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_droite.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="18" GridPane.rowIndex="11">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_droite.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_droite.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="18" GridPane.rowIndex="12">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_droite.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_droite.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="18" GridPane.rowIndex="13">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_droite.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_droite.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="18" GridPane.rowIndex="14">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_droite.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_droite.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="18" GridPane.rowIndex="15">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_droite.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_droite.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="18" GridPane.rowIndex="16">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_droite.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_droite.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="18" GridPane.rowIndex="17">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_droite.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_droite.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="18">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_bas.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_bas.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="18">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_bas.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_bas.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="18">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_bas.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_bas.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="18">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_bas.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_bas.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="18">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_bas.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_bas.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="18">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_bas.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_bas.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.rowIndex="18">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_bas.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_bas.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.rowIndex="18">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_bas.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_bas.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.rowIndex="18">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_bas.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_bas.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="10" GridPane.rowIndex="18">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_bas.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_bas.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="11" GridPane.rowIndex="18">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_bas.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_bas.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="12" GridPane.rowIndex="18">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_bas.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_bas.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="13" GridPane.rowIndex="18">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_bas.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_bas.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="14" GridPane.rowIndex="18">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_bas.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_bas.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="15" GridPane.rowIndex="18">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_bas.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_bas.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="16" GridPane.rowIndex="18">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_bas.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_bas.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="17" GridPane.rowIndex="18">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise_bas.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise_bas.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="14" GridPane.rowIndex="6">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="15" GridPane.rowIndex="6">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="16" GridPane.rowIndex="6">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="17" GridPane.rowIndex="6">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="13" GridPane.rowIndex="10">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="12" GridPane.rowIndex="10">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="11" GridPane.rowIndex="10">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="10" GridPane.rowIndex="10">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.rowIndex="10">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.rowIndex="10">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.rowIndex="10">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="10">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="10">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="10">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="10">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="10">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="10">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="17" GridPane.rowIndex="9">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="16" GridPane.rowIndex="9">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="14" GridPane.rowIndex="9">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="13" GridPane.rowIndex="9">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="12" GridPane.rowIndex="9">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="11" GridPane.rowIndex="9">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="10" GridPane.rowIndex="9">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.rowIndex="9">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.rowIndex="9">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="9">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="9">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="9">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="9">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="9">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="17" GridPane.rowIndex="8">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="16" GridPane.rowIndex="8">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="15" GridPane.rowIndex="8">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="14" GridPane.rowIndex="8">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="13" GridPane.rowIndex="8">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="12" GridPane.rowIndex="8">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="11" GridPane.rowIndex="8">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="10" GridPane.rowIndex="8">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.rowIndex="8">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.rowIndex="8">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.rowIndex="8">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="8">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="8">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="8">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="8">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="8">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="8">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="17" GridPane.rowIndex="7">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="16" GridPane.rowIndex="7">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="15" GridPane.rowIndex="7">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="14" GridPane.rowIndex="7">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="13" GridPane.rowIndex="7">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="12" GridPane.rowIndex="7">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="11" GridPane.rowIndex="7">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="10" GridPane.rowIndex="7">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.rowIndex="7">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.rowIndex="7">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.rowIndex="7">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="7">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="7">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="7">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="7">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="7">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="7">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="12" GridPane.rowIndex="12">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="11" GridPane.rowIndex="12">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="10" GridPane.rowIndex="12">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.rowIndex="12">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.rowIndex="12">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.rowIndex="12">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="12">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="12">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="12">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="12">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="12">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="12">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="17" GridPane.rowIndex="11">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="16" GridPane.rowIndex="11">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="15" GridPane.rowIndex="11">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="14" GridPane.rowIndex="11">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="13" GridPane.rowIndex="11">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="12" GridPane.rowIndex="11">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="11" GridPane.rowIndex="11">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="10" GridPane.rowIndex="11">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.rowIndex="11">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.rowIndex="11">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.rowIndex="11">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="11">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="11">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="11">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="11">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="11">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="11">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="17" GridPane.rowIndex="10">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="16" GridPane.rowIndex="10">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="15" GridPane.rowIndex="10">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="14" GridPane.rowIndex="10">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="14">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="14">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="14">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="14">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="17" GridPane.rowIndex="13">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="16" GridPane.rowIndex="13">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="15" GridPane.rowIndex="13">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="14" GridPane.rowIndex="13">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="13" GridPane.rowIndex="13">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="12" GridPane.rowIndex="13">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="11" GridPane.rowIndex="13">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="10" GridPane.rowIndex="13">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.rowIndex="13">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.rowIndex="13">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.rowIndex="13">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="13">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="13">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="13">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="13">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="13">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="13">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="17" GridPane.rowIndex="12">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="16" GridPane.rowIndex="12">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="15" GridPane.rowIndex="12">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="14" GridPane.rowIndex="12">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="13" GridPane.rowIndex="12">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="10" GridPane.rowIndex="15">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.rowIndex="15">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.rowIndex="15">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="15">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="15">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="15">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="15">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="15">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="17" GridPane.rowIndex="14">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="16" GridPane.rowIndex="14">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="15" GridPane.rowIndex="14">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="14" GridPane.rowIndex="14">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="13" GridPane.rowIndex="14">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="12" GridPane.rowIndex="14">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="11" GridPane.rowIndex="14">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="10" GridPane.rowIndex="14">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.rowIndex="14">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.rowIndex="14">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.rowIndex="14">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="14">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="14">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="13" GridPane.rowIndex="16">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="12" GridPane.rowIndex="16">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="11" GridPane.rowIndex="16">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="10" GridPane.rowIndex="16">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.rowIndex="16">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.rowIndex="16">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.rowIndex="16">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="16">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="16">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="16">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="16">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="16">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="16">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="17" GridPane.rowIndex="15">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="16" GridPane.rowIndex="15">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="14" GridPane.rowIndex="15">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="13" GridPane.rowIndex="15">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="12" GridPane.rowIndex="15">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="11" GridPane.rowIndex="15">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="17">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="17">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="17">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="17">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="17">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="17" GridPane.rowIndex="16">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="16" GridPane.rowIndex="16">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="15" GridPane.rowIndex="16">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="14" GridPane.rowIndex="16">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="14" GridPane.rowIndex="17">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="13" GridPane.rowIndex="17">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="12" GridPane.rowIndex="17">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="11" GridPane.rowIndex="17">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="10" GridPane.rowIndex="17">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.rowIndex="17">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.rowIndex="17">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.rowIndex="17">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="17">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="17" GridPane.rowIndex="17">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="16" GridPane.rowIndex="17">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="15" GridPane.rowIndex="17">
                      <image>
-                        <Image url="@../../../../Jeu%20de%20go%20mapping/croise.png" />
+                        <Image url="@../Jeu%20de%20go%20mapping/croise.png" />
                      </image>
                   </ImageView>
                </children>
