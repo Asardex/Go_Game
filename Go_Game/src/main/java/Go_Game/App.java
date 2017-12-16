@@ -50,31 +50,39 @@ public class App
     	return;
     }
 
+	/**
+	 * Lance une partie de Goban
+	 */
     private void jouer() {
-    	goban = new Goban();
-    	Joueur joueur; //Le joueur qui joue  	
-    	
-    	joueur = J1; //Celui qui commence c'est le J1 (noir)
-    	
     	int finDuGame = 0;
+    	int valeurTour = -1;
+    	goban = new Goban();
+    	Joueur joueur = J1; //Le joueur qui joue est celui qui commence c'est le J1 (noir)
     	
     	System.out.println("\nDebut de la partie.");
     	
     	while(finDuGame != 2) { //Tant que deux joueurs n'ont pas joué à la suite.
     		goban.afficher(); //On affiche le plateau de jeu
-			
-			if(tour(joueur) == 1) { //Si le joueur joue
+			valeurTour = tour(joueur);
+			if(valeurTour == 1) { //Si le joueur joue
 				finDuGame = 0; //Alors on remet à 0
 				afficherScore();
-			} else { //Si il ne joue pas, on enregistre
+			} else if(valeurTour == 2) {
+				finDuGame = 2;
+				break;
+			}
+			else { //Si il ne joue pas, on enregistre
 				finDuGame++;
 				System.out.println(joueur + " passe son tour.");
 			}
-			
     		joueur = joueur.equals(J1) ? J2 : J1; //Fin du tours, on change de joueur
     	}
     	
-    	afficherScore();
+    	if(valeurTour == 2) {
+    		System.out.println(joueur + " a abandonné la partie. " + (joueur.equals(J1) ? J2 : J1) + " est donc déclaré gagnant !");
+    	} else {
+    		afficherScore();
+    	}
     	System.out.println("Fin de la partie.");
 		return;
 	}
@@ -88,13 +96,13 @@ public class App
     	int choix = -1;
     	
     	do {
-	    	System.out.print("A " + joueur + " de jouer (0:paser 1:jouer) : ");
+	    	System.out.print("A " + joueur + " de jouer (0:paser 1:jouer 2:abandonner) : ");
 			sc = new Scanner(System.in);
 			if(sc.hasNextInt())
 				choix = sc.nextInt();
 			else
 				System.out.print("Entrez un chiffre (0:paser 1:jouer) : ");
-    	}while(choix != 0 && choix != 1); //On demande de passer ou de jouer
+    	}while(choix != 0 && choix != 1 && choix != 2); //On demande de passer ou de jouer ou d'abandonner
     	
     	if((choix == 1)) {
     		//Si le joueur veut jouer
