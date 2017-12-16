@@ -82,14 +82,16 @@ public class Goban {
 	private void controlerGroupes() {
 		int[] controle = {0, 0, 0, 0};
 		for(List<Pierre> groupe : groupes) {//Pour les 4 groupes
-			for(Pierre p : groupe) { //Pour toutes les pierres du groupe
-				for(Cote c : Cote.values()) {
-					Pierre pierreACote = getPierre(p.getPosition(), c);
-					if(pierreACote != null) {//Si on regarde pas à l'exterieur du goban
-						if(pierreACote.getCouleur() == p.getCouleur()) {//Si une pierre a coté de la pierre qu'on test a la même couleur que la pierre de la boucle
-							if(compterLibertes(pierreACote) > 0) { //Si cette pierre à plus de 0 libertés
-								controle[groupes.indexOf(groupe)] = 1; //alors le groupe est libre, puisqu'il y a une issue
-								System.err.println("controlerGrp : Ajout du groupe cote " + c);
+			if(!groupe.isEmpty()) {
+				for(Pierre p : groupe) { //Pour toutes les pierres du groupe
+					for(Cote c : Cote.values()) { //Pour les 4 cotés de chaque pierre
+						Pierre pierreACote = getPierre(p.getPosition(), c); 
+						if(pierreACote != null) {//Si on regarde pas à l'exterieur du goban
+							if(pierreACote.getCouleur() == p.getCouleur()) {//Si une pierre a coté de la pierre qu'on test a la même couleur que la pierre de la boucle
+								if(compterLibertes(pierreACote) > 0) { //Si cette pierre à plus de 0 libertés
+									controle[groupes.indexOf(groupe)] = 1; //alors le groupe est libre, puisqu'il y a une issue
+									System.err.println("controlerGrp : Ajout du groupe cote " + c);
+								}
 							}
 						}
 					}
@@ -192,41 +194,4 @@ public class Goban {
 			return getPierre(newPos);
 		}
 	}
-	
-/*
-//	croix simple 0
-//	croix point	1
-//	bord haut 2
-//	bord bas	3
-//	bord gauche	4
-//	bord droit	5
-//	coin superieur gauche 6
-//	coin superieur droit 7
-//	coin inferieur gauche 8
-//	coin inferieur droit 9
-	 
-	
-	public int grille[][]=
-		{
-				{6,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,7},
-				{4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5},
-				{4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5},
-				{4,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,5},
-				{4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5},
-				{4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5},
-				{4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5},
-				{4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5},
-				{4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5},
-				{4,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,5},
-				{4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5},
-				{4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5},
-				{4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5},
-				{4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5},
-				{4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5},
-				{4,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,5},
-				{4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5},
-				{4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5},
-				{8,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,9}			
-		};
-*/
 }
