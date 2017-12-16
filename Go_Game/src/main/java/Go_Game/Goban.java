@@ -18,25 +18,24 @@ public class Goban {
 
 	
 	public void afficher() {
-		for(int i = 0; i < HAUTEUR; i++) {
-			for(int j = 0; j < LARGEUR; j++) {
-				int index = i * LARGEUR + j;
-				switch(pierres.get(index).getCouleur()) {
-					case Vide:
-						System.out.print("+ ");
-						break;
-					case Blanc:
-						System.out.print("B ");
-						break;
-					case Noir:
-						System.out.print("N ");
-						break;
-					default:
-						break;
-				}
+		for(int index = 0; index < HAUTEUR*LARGEUR; index++) {
+			if(index % LARGEUR == 0)
+				System.out.println("");
+			switch(pierres.get(index).getCouleur()) {
+				case Vide:
+					System.out.print("+ ");
+					break;
+				case Blanc:
+					System.out.print("B ");
+					break;
+				case Noir:
+					System.out.print("N ");
+					break;
+				default:
+					break;
 			}
-			System.out.println("");
 		}
+		System.out.println("");
 	}
 
 	public boolean poserPierre(Joueur joueur, Position pos) {
@@ -56,6 +55,8 @@ public class Goban {
 		// et faire le test a chaque fois qu'on pose une pierre
 		
 	}
+	
+/*
 //	croix simple 0
 //	croix point	1
 //	bord haut 2
@@ -90,5 +91,5 @@ public class Goban {
 				{4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5},
 				{8,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,9}			
 		};
-
+*/
 }

@@ -45,7 +45,6 @@ public class App
 	    	}
     	}while(choix != 1); //On demande tant que l'on veut pas jouer ou arrêter le programme
     	
-
     	sc.close();
     	System.out.println("\nA bientôt !");
     	return;
@@ -66,25 +65,16 @@ public class App
 			
 			if(tour(joueur) == 1) { //Si le joueur joue
 				finDuGame = 0; //Alors on remet à 0
-				AfficherScore();
+				afficherScore();
 			} else { //Si il ne joue pas, on enregistre
 				finDuGame++;
 				System.out.println(joueur + " passe son tour.");
 			}
 			
-
     		joueur = joueur.equals(J1) ? J2 : J1; //Fin du tours, on change de joueur
     	}
     	
-    	calculerScore();
-    	System.out.println("");
-    	if(J1.getScore() > J2.getScore())
-			System.out.println(J1 + " gagne avec " + J1.getScore() + " points, contre " + J2.getScore() + " points pour " + J2 + ".");
-		else if(J1.getScore() < J2.getScore())
-			System.out.println(J2 + " gagne avec " + J2.getScore() + " points, contre " + J1.getScore() + " points pour " + J1 + ".");
-		else
-			System.out.println(J1 + " et " + J2 + " sont à égalité avec " + J1.getScore() + " points chacuns.");
-    	
+    	afficherScore();
     	System.out.println("Fin de la partie.");
 		return;
 	}
@@ -96,9 +86,6 @@ public class App
      */
     private int tour(Joueur joueur) {
     	int choix = -1;
-    	int x, y;
-    	Position pos;
-    	boolean isOk = false;
     	
     	do {
 	    	System.out.print("A " + joueur + " de jouer (0:paser 1:jouer) : ");
@@ -111,42 +98,59 @@ public class App
     	
     	if((choix == 1)) {
     		//Si le joueur veut jouer
-    		do {
-	    		System.out.print("Entre les coordonées (sous la forme x y) : ");
-	    		sc = new Scanner(System.in);
-	    		if(sc.hasNextInt()) { //Si il y a un entier à lire
-	    			x = sc.nextInt(); //On le lit
-	    			if(x >= 0 && x <= 18 && sc.hasNextInt()) { //Si l'entier lu est entre 0 et 18, et qu'il y a un deuxième entier à lire
-	    				y = sc.nextInt(); //On lit le deuxième entier
-	    				if(y >= 0 && y <= 18) { // si le deuxième entier est entre 0 et 18
-	    					isOk = true; // Tout est bon
-	    					pos = new Position(x, y); //On garde la position
-	    					if(!goban.poserPierre(joueur, pos)) // On la donne au Goban pour la poser : si on ne peut pas, isNotOk
-	    						isOk = false;
-	    					else
-	    						goban.capturerPierre(joueur, pos); //Si on a posé, on peut capturer
-	    				}
-	    			}
-	    		}
-    		}while(isOk == false); //Tant que les coordonnées ne sont pas valides, on redemande une pos.
-    			
+    		faireJouer(joueur);		
     	}
-    	
 		return choix;
     }
 
     /**
+     * fait jouer un joueur (demande de pos + poser la pierre + capturer)
+     * @param joueur à faire jouer
+     */
+    private void faireJouer(Joueur joueur) {
+    	Position pos;
+    	boolean isNotOk = true;
+    	int x, y;
+    	do {
+			System.out.print("Entre les coordonées (sous la forme x y) : ");
+			sc = new Scanner(System.in);
+			if(sc.hasNextInt()) { //Si il y a un entier à lire
+				x = sc.nextInt(); //On le lit
+				if(x >= 0 && x <= 18 && sc.hasNextInt()) { //Si l'entier lu est entre 0 et 18, et qu'il y a un deuxième entier à lire
+					y = sc.nextInt(); //On lit le deuxième entier
+					if(y >= 0 && y <= 18) { // si le deuxième entier est entre 0 et 18
+						isNotOk = false; // Tout est bon
+						pos = new Position(x, y); //On garde la position
+						if(goban.poserPierre(joueur, pos)) {// On la donne au Goban pour la poser
+							goban.capturerPierre(joueur, pos); //Si on a posé, on peut capturer
+						}
+						else { //Si on a pas posé, il faut redemander une pos
+							isNotOk = true;
+						}
+					}
+				}
+			}
+		}while(isNotOk); //Tant que les coordonnées ne sont pas valides, on redemande une pos.
+    	return;
+	}
+    
+
+	/**
      * Affiche le score des joueurs
      */
-	final private void AfficherScore() {
+	final private void afficherScore() {
+		Joueur premier = J1, deuxieme = J2;
 		calculerScore();
 		System.out.println("");
-		if(J1.getScore() > J2.getScore())
-			System.out.println(J1 + " est en tête avec " + J1.getScore() + " points, contre " + J2.getScore() + " points pour " + J2 + ".");
-		else if(J1.getScore() < J2.getScore())
-			System.out.println(J2 + " est en tête avec " + J2.getScore() + " points, contre " + J1.getScore() + " points pour " + J1 + ".");
-		else
-			System.out.println(J1 + " et " + J2 + " sont à égalité avec " + J1.getScore() + " points chacuns.");
+		if(J1.getScore() == J2.getScore()) {
+			System.out.println(premier + " et " + deuxieme + " sont à égalité avec " + J1.getScore() + " points chacuns.");	
+		} else {
+			if(J1.getScore() < J2.getScore()) {
+				premier = J2;
+				deuxieme = J1;
+			}
+			System.out.println(premier + " est en tête avec " + premier.getScore() + " points, contre " + deuxieme.getScore() + " points pour " + deuxieme + ".");
+		}		
 		return;
 	}
 	
