@@ -26,4 +26,8 @@ public class Pierre {
 		this.couleur = couleur;
 		return;
 	}
+	
+	public String toString() {
+		return pos + " " + couleur;
+	}
 }

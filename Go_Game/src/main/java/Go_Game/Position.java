@@ -16,7 +16,7 @@ public class Position {
 		}
 	}
 
-	public int getX()
+	final public int getX()
 	{
 		return x;
 	}
@@ -29,7 +29,7 @@ public class Position {
 		return;
 	}
 	
-	public int getY()
+	final public int getY()
 	{
 		return y;
 	}
@@ -40,5 +40,9 @@ public class Position {
 			this.y = y;
 		}
 		return;
+	}
+	
+	public String toString() {
+		return "(" + x + ";" + y + ")";
 	}
 }

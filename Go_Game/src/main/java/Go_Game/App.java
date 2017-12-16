@@ -96,7 +96,7 @@ public class App
     	int choix = -1;
     	
     	do {
-	    	System.out.print("A " + joueur + " de jouer (0:paser 1:jouer 2:abandonner) : ");
+	    	System.out.print("A " + joueur + " de jouer (0:passer 1:jouer 2:abandonner) : ");
 			sc = new Scanner(System.in);
 			if(sc.hasNextInt())
 				choix = sc.nextInt();
@@ -130,7 +130,7 @@ public class App
 						isNotOk = false; // Tout est bon
 						pos = new Position(x, y); //On garde la position
 						if(goban.poserPierre(joueur, pos)) {// On la donne au Goban pour la poser
-							goban.capturerPierre(joueur, pos); //Si on a posé, on peut capturer
+							goban.capturerPierre(pos); //Si on a posé, on peut capturer
 						}
 						else { //Si on a pas posé, il faut redemander une pos
 							isNotOk = true;
