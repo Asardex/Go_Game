@@ -23,13 +23,13 @@ public class Goban {
 				int index = i * LARGEUR + j;
 				switch(pierres.get(index).getCouleur()) {
 					case Vide:
-						System.out.print("+");
+						System.out.print("+ ");
 						break;
 					case Blanc:
-						System.out.print("B");
+						System.out.print("B ");
 						break;
 					case Noir:
-						System.out.print("N");
+						System.out.print("N ");
 						break;
 					default:
 						break;

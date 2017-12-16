@@ -31,7 +31,8 @@ public class App
 	    			choix = 1;
 	    			break;
 	    		case 1 :
-	    			app.jouer(app.choixCouleur());
+	    			app.creationJoueurs();
+	    			app.jouer();
 	    			break;
 	    		case 2:
 	    			app.regles();
@@ -42,49 +43,41 @@ public class App
     			default:
     				break;
 	    	}
-    	}while(choix != 1); //On demande tant que le
+    	}while(choix != 1); //On demande tant que l'on veut pas jouer ou arrêter le programme
+    	
 
     	sc.close();
     	System.out.println("\nA bientôt !");
     	return;
     }
 
-    
-    private void jouer(Couleur couleur) {
+    private void jouer() {
     	goban = new Goban();
-    	Joueur joueur;
+    	Joueur joueur; //Le joueur qui joue  	
     	
-    	if(couleur == Couleur.Blanc) {
-        	J2 = new Joueur("Marine", Couleur.Blanc);
-        	J1 = new Joueur("Quentin", Couleur.Noir);
-    	} else {
-        	J1 = new Joueur("Marine", Couleur.Noir);
-        	J2 = new Joueur("Quentin", Couleur.Blanc);
-    	}
+    	joueur = J1; //Celui qui commence c'est le J1 (noir)
     	
-    	joueur = J2;
     	int finDuGame = 0;
     	
     	System.out.println("\nDebut de la partie.");
     	
     	while(finDuGame != 2) { //Tant que deux joueurs n'ont pas joué à la suite.
     		goban.afficher(); //On affiche le plateau de jeu
-    		
-			if(joueur.equals(J1)) //Détermine quel joueur doit jouer
-				joueur = J2;
-			else
-				joueur = J1;
 			
-			if(tour(joueur, finDuGame) == 0) { //Si le joueur joue
+			if(tour(joueur) == 1) { //Si le joueur joue
 				finDuGame = 0; //Alors on remet à 0
 				AfficherScore();
 			} else { //Si il ne joue pas, on enregistre
 				finDuGame++;
 				System.out.println(joueur + " passe son tour.");
 			}
+			
+
+    		joueur = joueur.equals(J1) ? J2 : J1; //Fin du tours, on change de joueur
     	}
     	
     	calculerScore();
+    	System.out.println("");
     	if(J1.getScore() > J2.getScore())
 			System.out.println(J1 + " gagne avec " + J1.getScore() + " points, contre " + J2.getScore() + " points pour " + J2 + ".");
 		else if(J1.getScore() < J2.getScore())
@@ -96,24 +89,28 @@ public class App
 		return;
 	}
     
-    private int tour(Joueur joueur, int passe) {
-    	//renvoie 0 si le joueur à jouer, 1 si il passe
-    	int choix = 0;
+    /**
+     * Effectue le tour d'un joueur
+     * @param Joueur le joueur concerné par son tour
+     * @return Renvoie 1 si le joueur à jouer, 0 si il passe
+     */
+    private int tour(Joueur joueur) {
+    	int choix = -1;
     	int x, y;
     	Position pos;
     	boolean isOk = false;
     	
     	do {
-	    	System.out.println("A " + joueur + " de jouer (0:jouer 1:passer).");
+	    	System.out.print("A " + joueur + " de jouer (0:paser 1:jouer) : ");
 			sc = new Scanner(System.in);
 			if(sc.hasNextInt())
 				choix = sc.nextInt();
 			else
-				System.out.println("Entrez un chiffre");
-    	}while(choix != 0 && choix != 1); //On demande de jouer ou de passer
+				System.out.print("Entrez un chiffre (0:paser 1:jouer) : ");
+    	}while(choix != 0 && choix != 1); //On demande de passer ou de jouer
     	
-    	if((choix == 0)&&(passe ==0)) {
-    		//Si le joueur veut jouer et que son adversaire n'a pas passé
+    	if((choix == 1)) {
+    		//Si le joueur veut jouer
     		do {
 	    		System.out.print("Entre les coordonées (sous la forme x y) : ");
 	    		sc = new Scanner(System.in);
@@ -126,23 +123,24 @@ public class App
 	    					pos = new Position(x, y); //On garde la position
 	    					if(!goban.poserPierre(joueur, pos)) // On la donne au Goban pour la poser : si on ne peut pas, isNotOk
 	    						isOk = false;
-	    					goban.capturerPierre(joueur, pos);
+	    					else
+	    						goban.capturerPierre(joueur, pos); //Si on a posé, on peut capturer
 	    				}
 	    			}
 	    		}
     		}while(isOk == false); //Tant que les coordonnées ne sont pas valides, on redemande une pos.
     			
-    	}else
-    		//si l'adversaire a passé et que le joueur veut jouer on retourne à l'autre joueur
-    	{
-    		
-    		return choix;
     	}
+    	
 		return choix;
     }
 
-	private void AfficherScore() {
+    /**
+     * Affiche le score des joueurs
+     */
+	final private void AfficherScore() {
 		calculerScore();
+		System.out.println("");
 		if(J1.getScore() > J2.getScore())
 			System.out.println(J1 + " est en tête avec " + J1.getScore() + " points, contre " + J2.getScore() + " points pour " + J2 + ".");
 		else if(J1.getScore() < J2.getScore())
@@ -152,40 +150,72 @@ public class App
 		return;
 	}
 	
+	/**
+	 * Calcule le score des joueurs à partir du plateau de jeu
+	 */
 	private void calculerScore() {
 		J1.calculerScore(goban);
 		J2.calculerScore(goban);
 		return;
 	}
-	private Couleur choixCouleur() {
-		Couleur couleur = Couleur.Vide;
-		String str;
-		do {
-	    	System.out.println("Choix du noir si tu veux commencer, ou blanc pour etre second ('Blanc' ou 'Noir')");
-			sc = new Scanner(System.in);
-			if(sc.hasNextLine()) {
-				 str = new String(sc.nextLine());
-				if(str.compareToIgnoreCase("Blanc") == 0) {
-					couleur = Couleur.Blanc;
-				}else if(str.compareToIgnoreCase("Noir") == 0) {
-					couleur = Couleur.Noir;
-				}
-			} else {
-				System.out.println("Entrez 'Blanc' ou 'Noir'.");
-			}
-		}while(couleur == Couleur.Vide);
-		return couleur;
+	
+	/**
+	 * Initialise les joueurs via la console
+	 */
+	private void creationJoueurs() {
+    	System.out.print("Saisissez le nom du joueur qui va commencer (jouera en noir) : ");
+       	J1 = new Joueur(saisirNom(), Couleur.Noir);
+    	
+    	System.out.print("Saisissez le nom du deuxième joueur (jouera en blanc) : ");
+    	J2 = new Joueur(saisirNom(), Couleur.Blanc);
+		return;
 	}
 	
+	/**
+	 * Demande un nom, jusqu'à ce que le nom soit correct
+	 * @return Renvoie le nom saisi
+	 */
+	private String saisirNom() {
+		String nom = new String();
+		boolean correct = false;
+		do {
+			sc = new Scanner(System.in);
+			if(sc.hasNextLine()) {
+				nom = sc.nextLine();
+				System.out.print(nom + " est bien le nom du joueur ? (0:Non, 1:Oui) : ");
+				sc = new Scanner(System.in);
+				if(sc.hasNextInt()) {
+					if(sc.nextInt() == 1) {
+						correct = true;
+					} else {
+						System.out.print("Saisissez à nouveau le nom du joueur : ");
+					}
+				}
+			}
+		}while(!correct);
+		
+		return nom;
+	}
+
+	/**
+	 * Explique comment jouer
+	 */
 	final private void commentJouer() {
-    	System.out.println("\nEntrez les coordonées de la pierre que vous voulez placer sous la forme x y.\n 0 0 se situe en haut a gauche\n 0 18 se situe en haut a droite \n"
-    			+ " 18 0 se situe en bas a gauche\n 18 18 se situe en bas a droite\n");
+    	System.out.println("\nEntrez les coordonées de la pierre que vous voulez placer sous la forme x y.\n"
+    			+ "0 0 se situe en haut a gauche.\n"
+    			+ "0 18 se situe en haut a droite.\n"
+    			+ "18 0 se situe en bas a gauche.\n"
+    			+ "18 18 se situe en bas a droite.\n");
     	return;
 	}
 
+	/**
+	 * Donne les règles du jeu
+	 */
 	final private void regles() {
     	System.out.println("\nDeux camps s'opposent pour obtenir le plus grand territoire : "
     			+ "les pierres blanches et les pierres noires.\n"
+    			+ "Le premier joueur pose des pierres noires.\n"
     			+ "Les joueurs peuvent passer leur tour,"
     			+ "cependant si l'autre joueur ne passe pas on revient au joueur précédent \n"
     			+ "Si les deux joueurs passent leur tour l'un apres l'autre, "
