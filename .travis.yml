@@ -1,2 +1,6 @@
 language: java
 os: windows
+jdk:
+  - oraclejdk8
+before_install:
+  - cd Go_Game
