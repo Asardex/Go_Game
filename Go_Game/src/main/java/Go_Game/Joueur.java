@@ -26,7 +26,9 @@ public class Joueur {
 	
 	public void calculerScore(Goban goban) {
 		//Calculer score depuis le terrain
-		score = nbPiecesCapturees;
+		score = goban.nbCaptured(couleur);
+		
+		//score = nbPiecesCapturees;
 		return;
 	}
 	

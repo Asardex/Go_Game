@@ -8,6 +8,8 @@ public class Goban {
 	final private int LARGEUR = 19;
 	
 	private List<Pierre> pierres = new ArrayList<Pierre>();
+	private List<Pierre> capturedB = new ArrayList<Pierre>();
+	private List<Pierre> capturedN = new ArrayList<Pierre>();
 	private List<ArrayList<Pierre>> groupes = new ArrayList<ArrayList<Pierre>>();
 	
 	Goban() {
@@ -75,6 +77,7 @@ public class Goban {
 		}
 		controlerGroupes(); //On regarde si on a pas un ou plusieurs groupes qui ne sont pas "encerclés"
 		supprimerGroupes(); //On supprime les groupes possiblement construits
+		
 		return;
 	}
 
@@ -151,6 +154,7 @@ public class Goban {
 	private void supprimerGroupes() {
 		for(List<Pierre> groupe : groupes) {//Pour les 4 groupes
 			for(Pierre p : groupe) { //Pour toutes les pierres du groupe
+				ajouterCapture(p);
 				System.err.println("suppression de " + p);
 				p.supprimer();
 			}
@@ -193,5 +197,26 @@ public class Goban {
 			}
 			return getPierre(newPos);
 		}
+	}
+	public void ajouterCapture(Pierre p)
+	{
+		if(p.getCouleur().toString() == "Blanc")
+		{
+			capturedB.add(p);
+		}else if (p.getCouleur().toString() == "Noir")
+		{
+			capturedN.add(p);
+		}
+	}
+	public int nbCaptured(Couleur c)
+	{
+		if(c.toString() == "Noir")
+		{
+			return capturedB.size();
+		}else if (c.toString() == "Blanc")
+		{
+			return capturedN.size();
+		}
+		return 0;
 	}
 }
