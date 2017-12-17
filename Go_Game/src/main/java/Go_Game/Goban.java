@@ -6,11 +6,14 @@ import java.util.List;
 public class Goban {
 	final private int HAUTEUR = 19;
 	final private int LARGEUR = 19;
+	private int pointB =0;
+	private int pointN =0;
 	
 	private List<Pierre> pierres = new ArrayList<Pierre>();
 	private List<Pierre> capturedB = new ArrayList<Pierre>();
 	private List<Pierre> capturedN = new ArrayList<Pierre>();
 	private List<ArrayList<Pierre>> groupes = new ArrayList<ArrayList<Pierre>>();
+	private List<ArrayList<Pierre>> territoires = new ArrayList<ArrayList<Pierre>>();
 	
 	Goban() {
 		int y = -1;
@@ -109,6 +112,44 @@ public class Goban {
 		}
 		return;
 	}
+	
+	private void controlerTerritoires() {
+		int noir = 0;
+		int blanc = 0;
+		for(List<Pierre> groupe : territoires) {//Pour les 4 groupes
+			if(!groupe.isEmpty()) {
+				for(Pierre p : groupe) { //Pour toutes les pierres du groupe
+					for(Cote c : Cote.values()) { //Pour les 4 cotés de chaque pierre
+						Pierre pierreACote = getPierre(p.getPosition(), c); 
+						if(pierreACote != null) {//Si on regarde pas à l'exterieur du goban
+							if(pierreACote.getCouleur() != p.getCouleur()) {//Si une pierre a coté de la pierre qu'on test a une couleur differente que la pierre de la boucle
+								if(pierreACote.getCouleur().toString() == "Noir")
+								{
+									noir++;
+								}else if(pierreACote.getCouleur().toString() == "Blanc")
+								{
+									blanc++;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		for(Cote c : Cote.values()) { //Pour tous les groupes
+			if((blanc != 0)&&(noir!=0)) { // entouré de pierres differentes
+				groupes.get(c.toInt()).clear(); //On efface son contenu
+				System.err.println("controlerGrp : clear du groupe cote " + c);
+			}else if((blanc == 0)&&(noir!=0)) // entouré de pierres noires
+			{
+				pointN++;
+			}else if((blanc != 0)&&(noir==0)) // entouré de pierres blanches
+			{
+				pointB++;
+			}
+		}
+		return;
+	}
 
 
 	private void construireGroupe(Pierre pierre, Cote side) {
@@ -133,6 +174,27 @@ public class Goban {
 		return;
 	}
 
+	private void construireTerritoire(Pierre pierre, Cote side) { //fonction qui permet de cree un territoire
+		List<Pierre> aConstruire = territoires.get(side.toInt());
+		if(pierre.getCouleur()!= Couleur.Vide) {
+			return;
+		} else { 
+			aConstruire.add(pierre);
+			System.err.println("construireGrp : ajout de " + pierre);
+			for(Cote c : Cote.values()) { //Pour les 4 cotés
+				Pierre pAdjacente = getPierre(pierre.getPosition(), c);
+				if(pAdjacente != null) { //Si il y a bien une pierre
+					if(pierre.getCouleur() == pAdjacente.getCouleur()) { //Si la pierre d'a coté à la même couleur
+						if(!aConstruire.contains(pAdjacente)) { //Si on a pas déjà la pierre dans la liste
+							System.err.println("construireGrp : meme couleur, on re construit à partir de " + pAdjacente);
+							construireTerritoire(pAdjacente, side);
+						}
+					}
+				}
+			}
+		}
+		return;
+	}
 
 	private int compterLibertes(Pierre pierre) {
 		int nbLiberte = 0;
@@ -150,6 +212,7 @@ public class Goban {
 		return nbLiberte;
 	}
 
+	
 
 	private void supprimerGroupes() {
 		for(List<Pierre> groupe : groupes) {//Pour les 4 groupes
@@ -212,10 +275,10 @@ public class Goban {
 	{
 		if(c.toString() == "Noir")
 		{
-			return capturedB.size();
+			return capturedB.size()+ pointN;
 		}else if (c.toString() == "Blanc")
 		{
-			return capturedN.size();
+			return capturedN.size()+ pointB;
 		}
 		return 0;
 	}
