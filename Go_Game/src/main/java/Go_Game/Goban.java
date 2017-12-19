@@ -112,11 +112,38 @@ public class Goban {
 		}
 		return;
 	}
+	public void calculerTerritoires() {
+		boolean contient = false;
+		for(int index = 0; index < HAUTEUR*LARGEUR; index++) {
+			if(pierres.get(index).getCouleur().toString() == "Vide")
+			{
+				if(!territoires.isEmpty()) {
+					for(List<Pierre> groupe : territoires) {//Pour les groupes
+						if(!groupe.isEmpty()) {
+								contient = groupe.contains(pierres.get(index)); //Si on a déjà la pierre dans la liste true
+						}
+						if (contient == true) break;
+					}
+					if(contient ==false)
+					{
+						construireTerritoire(pierres.get(index), index);
+					}else
+					{
+						contient = false;
+					}
+				}else {
+					construireTerritoire(pierres.get(index), index);
+				}		
+			}	
+		}
+		controlerTerritoires();
+	}
 	
 	private void controlerTerritoires() {
-		int noir = 0;
-		int blanc = 0;
-		for(List<Pierre> groupe : territoires) {//Pour les 4 groupes
+		ArrayList<Integer> noir = new ArrayList<Integer>();
+		ArrayList<Integer> blanc = new ArrayList<Integer>();
+		int n=0,b=0, index=0;
+		for(List<Pierre> groupe : territoires) {//Pour les groupes
 			if(!groupe.isEmpty()) {
 				for(Pierre p : groupe) { //Pour toutes les pierres du groupe
 					for(Cote c : Cote.values()) { //Pour les 4 cotés de chaque pierre
@@ -125,27 +152,32 @@ public class Goban {
 							if(pierreACote.getCouleur() != p.getCouleur()) {//Si une pierre a coté de la pierre qu'on test a une couleur differente que la pierre de la boucle
 								if(pierreACote.getCouleur().toString() == "Noir")
 								{
-									noir++;
+									n++;
 								}else if(pierreACote.getCouleur().toString() == "Blanc")
 								{
-									blanc++;
+									b++;
 								}
 							}
 						}
 					}
 				}
+				noir.add(n);
+				blanc.add(b);
+				n=0;
+				b=0;
 			}
 		}
-		for(Cote c : Cote.values()) { //Pour tous les groupes
-			if((blanc != 0)&&(noir!=0)) { // entouré de pierres differentes
-				groupes.get(c.toInt()).clear(); //On efface son contenu
-				System.err.println("controlerGrp : clear du groupe cote " + c);
-			}else if((blanc == 0)&&(noir!=0)) // entouré de pierres noires
+		for(List<Pierre> groupe : territoires) { //Pour tous les groupes
+			if((blanc.get(index) != 0)&&(noir.get(index)!=0)) { // entouré de pierres differentes
+				territoires.get(index).clear(); //On efface son contenu
+			}else if((blanc.get(index) == 0)&&(noir.get(index)!=0)) // entouré de pierres noires
 			{
-				pointN++;
-			}else if((blanc != 0)&&(noir==0)) // entouré de pierres blanches
+				pointN+=groupe.size();
+				index++;
+			}else if((blanc.get(index) != 0)&&(noir.get(index)==0)) // entouré de pierres blanches
 			{
-				pointB++;
+				pointB+=blanc.size();
+				index++;
 			}
 		}
 		return;
@@ -174,8 +206,8 @@ public class Goban {
 		return;
 	}
 
-	private void construireTerritoire(Pierre pierre, Cote side) { //fonction qui permet de cree un territoire
-		List<Pierre> aConstruire = territoires.get(side.toInt());
+	private void construireTerritoire(Pierre pierre, int side) { //fonction qui permet de cree un territoire
+		List<Pierre> aConstruire = territoires.get(side);
 		if(pierre.getCouleur()!= Couleur.Vide) {
 			return;
 		} else { 

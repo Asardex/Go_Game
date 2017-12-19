@@ -21,7 +21,7 @@ public class App
     	System.out.print("Bienvenu dans le Goban. ");
     	do {
     		System.out.println("Quel voulez vous faire ?\n\t1. Jouer\n\t2. Lire les règles\n\t3. Comment jouer ?\n\t-1. Quitter");
-	    	sc = new Scanner(System.in); //L'utilisateur fait sont choix.
+	    	sc = new Scanner(System.in); //L'utilisateur fait son choix.
 	    	if(sc.hasNextInt())
 	    		choix = sc.nextInt();
 	    	else
@@ -148,6 +148,7 @@ public class App
      */
 	final private void afficherScore() {
 		Joueur premier = J1, deuxieme = J2;
+		goban.calculerTerritoires();
 		calculerScore();
 		System.out.println("");
 		if(J1.getScore() == J2.getScore()) {
