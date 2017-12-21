@@ -66,7 +66,7 @@ public class App
 			valeurTour = tour(joueur);
 			if(valeurTour == 1) { //Si le joueur joue
 				finDuGame = 0; //Alors on remet à 0
-				afficherScore();
+				//afficherScore();
 			} else if(valeurTour == 2) {
 				finDuGame = 2;
 				break;
@@ -148,7 +148,6 @@ public class App
      */
 	final private void afficherScore() {
 		Joueur premier = J1, deuxieme = J2;
-		goban.calculerTerritoires();
 		calculerScore();
 		System.out.println("");
 		if(J1.getScore() == J2.getScore()) {
@@ -167,6 +166,7 @@ public class App
 	 * Calcule le score des joueurs à partir du plateau de jeu
 	 */
 	private void calculerScore() {
+		goban.calculerTerritoires();
 		J1.calculerScore(goban);
 		J2.calculerScore(goban);
 		return;

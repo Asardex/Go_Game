@@ -27,7 +27,9 @@ public class Goban {
 		}
 		for(Cote c : Cote.values()) { //Pour les 4 cotés, on créé un tableau de pierres (vide)
 			groupes.add(new ArrayList<Pierre>());
+			
 		}
+		
 	}
 
 	
@@ -114,25 +116,29 @@ public class Goban {
 	}
 	public void calculerTerritoires() {
 		boolean contient = false;
+		int place =0;
 		for(int index = 0; index < HAUTEUR*LARGEUR; index++) {
 			if(pierres.get(index).getCouleur().toString() == "Vide")
 			{
 				if(!territoires.isEmpty()) {
 					for(List<Pierre> groupe : territoires) {//Pour les groupes
 						if(!groupe.isEmpty()) {
-								contient = groupe.contains(pierres.get(index)); //Si on a déjà la pierre dans la liste true
+								if(groupe.contains(pierres.get(index))) {//Si on a déjà la pierre dans la liste true
+									contient = true;
+								}
 						}
-						if (contient == true) break;
 					}
 					if(contient ==false)
 					{
-						construireTerritoire(pierres.get(index), index);
+						construireTerritoire(pierres.get(index), place);
+						place++;
 					}else
 					{
 						contient = false;
 					}
 				}else {
-					construireTerritoire(pierres.get(index), index);
+					construireTerritoire(pierres.get(index), place);
+					place++;
 				}		
 			}	
 		}
@@ -207,17 +213,18 @@ public class Goban {
 	}
 
 	private void construireTerritoire(Pierre pierre, int side) { //fonction qui permet de cree un territoire
-		List<Pierre> aConstruire = territoires.get(side);
+		territoires.add(new ArrayList<Pierre>());
+		List<Pierre> aConstru = territoires.get(side);
 		if(pierre.getCouleur()!= Couleur.Vide) {
 			return;
 		} else { 
-			aConstruire.add(pierre);
+			aConstru.add(pierre);
 			System.err.println("construireGrp : ajout de " + pierre);
 			for(Cote c : Cote.values()) { //Pour les 4 cotés
 				Pierre pAdjacente = getPierre(pierre.getPosition(), c);
 				if(pAdjacente != null) { //Si il y a bien une pierre
 					if(pierre.getCouleur() == pAdjacente.getCouleur()) { //Si la pierre d'a coté à la même couleur
-						if(!aConstruire.contains(pAdjacente)) { //Si on a pas déjà la pierre dans la liste
+						if(!aConstru.contains(pAdjacente)) { //Si on a pas déjà la pierre dans la liste
 							System.err.println("construireGrp : meme couleur, on re construit à partir de " + pAdjacente);
 							construireTerritoire(pAdjacente, side);
 						}
