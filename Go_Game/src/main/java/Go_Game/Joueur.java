@@ -1,6 +1,9 @@
 package Go_Game;
 
-public class Joueur {
+import java.io.Serializable;
+
+public class Joueur  implements Serializable {
+	private static final long serialVersionUID = -7016853658676287606L;
 	private int score;
 	private int nbPiecesCapturees;
 	private Couleur couleur;

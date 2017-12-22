@@ -1,6 +1,8 @@
 package Go_Game;
 
-public enum Couleur {
+import java.io.Serializable;
+
+public enum Couleur implements Serializable {
 	Vide, //+
 	Blanc, //B
 	Noir; //N

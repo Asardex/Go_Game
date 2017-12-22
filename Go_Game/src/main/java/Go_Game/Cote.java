@@ -1,6 +1,8 @@
 package Go_Game;
 
-public enum Cote {
+import java.io.Serializable;
+
+public enum Cote implements Serializable {
 HAUT,
 DROITE,
 BAS,

@@ -1,9 +1,12 @@
 package Go_Game;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Goban {
+public class Goban implements Serializable {
+
+	private static final long serialVersionUID = 2473059806084092696L;
 	final private int HAUTEUR = 19;
 	final private int LARGEUR = 19;
 	private int pointB =0;

@@ -1,6 +1,10 @@
 package Go_Game;
 
-public class Position {
+import java.io.Serializable;
+
+public class Position implements Serializable {
+
+	private static final long serialVersionUID = -9185885797101421650L;
 	private int x;
 	private int y;
 	

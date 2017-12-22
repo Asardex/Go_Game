@@ -1,6 +1,10 @@
 package Go_Game;
 
-public class Pierre {
+import java.io.Serializable;
+
+public class Pierre implements Serializable {
+
+	private static final long serialVersionUID = 4438330629692151834L;
 	private Couleur couleur;
 	private Position pos;
 	
