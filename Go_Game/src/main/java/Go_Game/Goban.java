@@ -71,14 +71,14 @@ public class Goban implements Serializable {
 	public void capturerPierre(Position pos) {
 		Pierre p = getPierre(pos);
 		Couleur couleurACapturer = p.getCouleur().equals(Couleur.Blanc) ? Couleur.Noir : Couleur.Blanc; //couleur ennemie de la pierre à la pos envoyée
-		System.err.println("capturerPierre : couleurACapturer = " + couleurACapturer);
+		//System.err.println("capturerPierre : couleurACapturer = " + couleurACapturer);
 		
 		for(Cote c : Cote.values()) { //Pour les 4 cotés
 			Pierre pierreAdjacente = getPierre(pos, c); //On récupère la pierre d'à coté
-			System.err.println("capturerPierre : Cote = " + c + " pierreAdjacente = " + pierreAdjacente);
+			//System.err.println("capturerPierre : Cote = " + c + " pierreAdjacente = " + pierreAdjacente);
 			if(pierreAdjacente != null) { //Si il y a bien une pierre à coté
 				if(pierreAdjacente.getCouleur() == couleurACapturer) { //Si la pierre d'a coté est une pierre a capturer
-					System.err.println("\tLancer construireGroupe()");
+					//System.err.println("\tLancer construireGroupe()");
 					construireGroupe(pierreAdjacente, c); //on commence à construire un groupe à partir de la pierre à possiblement capturer
 				}
 			}
@@ -101,7 +101,7 @@ public class Goban implements Serializable {
 							if(pierreACote.getCouleur() == p.getCouleur()) {//Si une pierre a coté de la pierre qu'on test a la même couleur que la pierre de la boucle
 								if(compterLibertes(pierreACote) > 0) { //Si cette pierre à plus de 0 libertés
 									controle[groupes.indexOf(groupe)] = 1; //alors le groupe est libre, puisqu'il y a une issue
-									System.err.println("controlerGrp : Ajout du groupe cote " + c);
+									//System.err.println("controlerGrp : Ajout du groupe cote " + c);
 								}
 							}
 						}
@@ -112,7 +112,7 @@ public class Goban implements Serializable {
 		for(Cote c : Cote.values()) { //Pour tous les groupes
 			if(controle[c.toInt()] == 1) { //Si un groupe est marqué
 				groupes.get(c.toInt()).clear(); //On efface son contenu
-				System.err.println("controlerGrp : clear du groupe cote " + c);
+				//System.err.println("controlerGrp : clear du groupe cote " + c);
 			}
 		}
 		return;
@@ -199,13 +199,13 @@ public class Goban implements Serializable {
 			return;
 		} else { //La pierre est entourée de pierres ou de murs
 			aConstruire.add(pierre);
-			System.err.println("construireGrp : ajout de " + pierre);
+			//System.err.println("construireGrp : ajout de " + pierre);
 			for(Cote c : Cote.values()) { //Pour les 4 cotés
 				Pierre p = getPierre(pierre.getPosition(), c);
 				if(p != null) { //Si il y a bien une pierre
 					if(pierre.getCouleur() == p.getCouleur()) { //Si la pierre d'a coté à la même couleur
 						if(!aConstruire.contains(p)) { //Si on a pas déjà la pierre dans la liste
-							System.err.println("construireGrp : meme couleur, on re construit à partir de " + p);
+							//System.err.println("construireGrp : meme couleur, on re construit à partir de " + p);
 							construireGroupe(p, side);
 						}
 					}
@@ -222,13 +222,13 @@ public class Goban implements Serializable {
 			return;
 		} else { 
 			aConstru.add(pierre);
-			System.err.println("construireGrp : ajout de " + pierre);
+			//System.err.println("construireGrp : ajout de " + pierre);
 			for(Cote c : Cote.values()) { //Pour les 4 cotés
 				Pierre pAdjacente = getPierre(pierre.getPosition(), c);
 				if(pAdjacente != null) { //Si il y a bien une pierre
 					if(pierre.getCouleur() == pAdjacente.getCouleur()) { //Si la pierre d'a coté à la même couleur
 						if(!aConstru.contains(pAdjacente)) { //Si on a pas déjà la pierre dans la liste
-							System.err.println("construireGrp : meme couleur, on re construit à partir de " + pAdjacente);
+							//System.err.println("construireGrp : meme couleur, on re construit à partir de " + pAdjacente);
 							construireTerritoire(pAdjacente, side);
 						}
 					}
@@ -250,7 +250,7 @@ public class Goban implements Serializable {
 				}
 			}
 		}
-		System.err.println("compterLibertes :" + pierre + " a nbLiberte = " + nbLiberte);
+		//System.err.println("compterLibertes :" + pierre + " a nbLiberte = " + nbLiberte);
 		return nbLiberte;
 	}
 
@@ -260,7 +260,7 @@ public class Goban implements Serializable {
 		for(List<Pierre> groupe : groupes) {//Pour les 4 groupes
 			for(Pierre p : groupe) { //Pour toutes les pierres du groupe
 				ajouterCapture(p);
-				System.err.println("suppression de " + p);
+				//System.err.println("suppression de " + p);
 				p.supprimer();
 			}
 			groupe.clear();

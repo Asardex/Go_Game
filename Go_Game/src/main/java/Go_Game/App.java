@@ -64,7 +64,7 @@ public class App implements Serializable
 	private void charger() {
 		ObjectInputStream ois = null;
 		try {
-			final FileInputStream fichier = new FileInputStream("personne.ser");
+			final FileInputStream fichier = new FileInputStream("Go_Game.save");
 			ois = new ObjectInputStream(fichier);
 			App lastApp = (App) ois.readObject();
 			this.J1 = lastApp.J1;
@@ -93,7 +93,7 @@ public class App implements Serializable
 	private void sauvegarder() {
 		ObjectOutputStream oos = null;
 		try {
-			final FileOutputStream fichier = new FileOutputStream("personne.ser");
+			final FileOutputStream fichier = new FileOutputStream("Go_Game.save");
 			oos = new ObjectOutputStream(fichier);
 			oos.writeObject(this);
 			oos.flush();
