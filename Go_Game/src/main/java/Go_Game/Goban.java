@@ -9,8 +9,11 @@ public class Goban implements Serializable {
 	private static final long serialVersionUID = 2473059806084092696L;
 	final private int HAUTEUR = 19;
 	final private int LARGEUR = 19;
+	
 	private int pointB =0;
 	private int pointN =0;
+	ArrayList<Integer> noir = new ArrayList<Integer>();
+	ArrayList<Integer> blanc = new ArrayList<Integer>();
 	
 	private List<Pierre> pierres = new ArrayList<Pierre>();
 	private List<Pierre> capturedB = new ArrayList<Pierre>();
@@ -35,7 +38,6 @@ public class Goban implements Serializable {
 		
 	}
 
-	
 	public void afficher() {
 		for(int index = 0; index < HAUTEUR*LARGEUR; index++) {
 			if(index % LARGEUR == 0)
@@ -72,7 +74,6 @@ public class Goban implements Serializable {
 		Pierre p = getPierre(pos);
 		Couleur couleurACapturer = p.getCouleur().equals(Couleur.Blanc) ? Couleur.Noir : Couleur.Blanc; //couleur ennemie de la pierre à la pos envoyée
 		//System.err.println("capturerPierre : couleurACapturer = " + couleurACapturer);
-		
 		for(Cote c : Cote.values()) { //Pour les 4 cotés
 			Pierre pierreAdjacente = getPierre(pos, c); //On récupère la pierre d'à coté
 			//System.err.println("capturerPierre : Cote = " + c + " pierreAdjacente = " + pierreAdjacente);
@@ -85,10 +86,8 @@ public class Goban implements Serializable {
 		}
 		controlerGroupes(); //On regarde si on a pas un ou plusieurs groupes qui ne sont pas "encerclés"
 		supprimerGroupes(); //On supprime les groupes possiblement construits
-		
 		return;
 	}
-
 
 	private void controlerGroupes() {
 		int[] controle = {0, 0, 0, 0};
@@ -117,27 +116,25 @@ public class Goban implements Serializable {
 		}
 		return;
 	}
+	
 	public void calculerTerritoires() {
 		boolean contient = false;
 		int place =0;
 		for(int index = 0; index < HAUTEUR*LARGEUR; index++) {
-			if(pierres.get(index).getCouleur().toString() == "Vide")
-			{
+			if(pierres.get(index).getCouleur().toString() == "Vide"){
 				if(!territoires.isEmpty()) {
 					for(List<Pierre> groupe : territoires) {//Pour les groupes
 						if(!groupe.isEmpty()) {
-								if(groupe.contains(pierres.get(index))) {//Si on a déjà la pierre dans la liste true
+							if(groupe.contains(pierres.get(index))) {//Si on a déjà la pierre dans la liste true
 									contient = true;
-								}
+							}
 						}
 					}
-					if(contient ==false)
-					{
+					if(contient == false){
 						territoires.add(new ArrayList<Pierre>());
 						construireTerritoire(pierres.get(index), place);
 						place++;
-					}else
-					{
+					}else{
 						contient = false;
 					}
 				}else {
@@ -148,63 +145,49 @@ public class Goban implements Serializable {
 			}	
 		}
 		controlerTerritoires();
+		calculPoints();
 	}
 	
 	private void controlerTerritoires() {
-		ArrayList<Integer> noir = new ArrayList<Integer>();
-		ArrayList<Integer> blanc = new ArrayList<Integer>();
-		int n=0,b=0, index=0;
 		for(List<Pierre> groupe : territoires) {//Pour les groupes
+			int n=0,b=0;
 			if(!groupe.isEmpty()) {
 				for(Pierre p : groupe) { //Pour toutes les pierres du groupe
 					for(Cote c : Cote.values()) { //Pour les 4 cotés de chaque pierre
 						Pierre pierreACote = getPierre(p.getPosition(), c); 
 						if(pierreACote != null) {//Si on regarde pas à l'exterieur du goban
 							if(pierreACote.getCouleur() != p.getCouleur()) {//Si une pierre a coté de la pierre qu'on test a une couleur differente que la pierre de la boucle
-								System.out.println("Couleur PIERRE VOISINE " + pierreACote.getCouleur() + pierreACote.getPosition());
 								if(pierreACote.getCouleur().toString() == "Noir")
 								{
 									n++;
-									System.out.println("couleur voisin n" + n);
-									System.out.println("couleur voisin b" + b);
-								}else if(pierreACote.getCouleur().toString() == "Blanc")
-								{
-									b++;
-									System.out.println("couleur voisin n" + n);
-									System.out.println("couleur voisin b" + b);
-								}
+								}else if(pierreACote.getCouleur().toString() == "Blanc") b++;
 							}
 						}
 					}
 				}
 				noir.add(n);
 				blanc.add(b);
-				n=0;
-				b=0;
-			}
-		}
-		for(List<Pierre> groupe : territoires) { //Pour tous les groupes
-			System.out.println("taille liste territoires" + territoires.size());
-			System.out.println("couleur voisin n " + noir.get(index));
-			System.out.println("couleur voisin b " + blanc.get(index));
-			if((blanc.get(index) != 0)&&(noir.get(index)!=0)) { // entouré de pierres differentes
-				territoires.get(index).clear(); //On efface son contenu
-				index++;
-			}else if((blanc.get(index) == 0)&&(noir.get(index)!=0)) // entouré de pierres noires
-			{
-				System.out.println("taille groupe n " + groupe.size());
-				pointN+=groupe.size();
-				index++;
-			}else if((blanc.get(index) != 0)&&(noir.get(index)==0)) // entouré de pierres blanches
-			{
-				System.out.println("taille groupe b " + groupe.size());
-				pointB+=groupe.size();
-				index++;
 			}
 		}
 		return;
 	}
 
+	private void calculPoints()
+	{
+		int index=0;
+		for(List<Pierre> groupe : territoires) { //Pour tous les groupes
+			if((blanc.get(index) != 0)&&(noir.get(index)!=0)) { // entouré de pierres differentes
+				territoires.get(index).clear(); //On efface son contenu
+			}else if((blanc.get(index) == 0)&&(noir.get(index)!=0)) // entouré de pierres noires
+			{
+				pointN+=groupe.size();
+			}else if((blanc.get(index) != 0)&&(noir.get(index)==0)) // entouré de pierres blanches
+			{
+				pointB+=groupe.size();
+			}
+			index++;
+		}
+	}
 
 	private void construireGroupe(Pierre pierre, Cote side) {
 		List<Pierre> aConstruire = groupes.get(side.toInt());
@@ -229,7 +212,6 @@ public class Goban implements Serializable {
 	}
 
 	private void construireTerritoire(Pierre pierre, int side) { //fonction qui permet de cree un territoire
-		
 		List<Pierre> aConstru = territoires.get(side);
 		if(pierre.getCouleur()!= Couleur.Vide) {
 			return;
@@ -316,6 +298,11 @@ public class Goban implements Serializable {
 			return getPierre(newPos);
 		}
 	}
+	
+	/**
+	 * 
+	 * @param p pierre capturée a ajouter au decompte de point
+	 */
 	public void ajouterCapture(Pierre p)
 	{
 		if(p.getCouleur().toString() == "Blanc")

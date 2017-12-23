@@ -55,7 +55,6 @@ public class App implements Serializable
     				break;
 	    	}
     	}while(choix != 1 && choix != 2); //On demande tant que l'on veut pas jouer ou arrêter le programme
-    	
     	sc.close();
     	System.out.println("\nA bientôt !");
     	return;
