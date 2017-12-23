@@ -123,7 +123,7 @@ public class App implements Serializable
     	
     	while(finDuGame != 2 && valeurTour != 3) { //Tant que deux joueurs n'ont pas joué à la suite, ou qu'on a pas sauvegardé
     		goban.afficher(); //On affiche le plateau de jeu
-			valeurTour = tour();
+			valeurTour = tour(finDuGame);
 			if(valeurTour == 1) { //Si le joueur joue
 				finDuGame = 0; //Alors on remet à 0
 				//afficherScore();
@@ -136,7 +136,7 @@ public class App implements Serializable
 				finDuGame++;
 				System.out.println(dernierJoueur + " passe son tour.");
 			}
-			dernierJoueur = dernierJoueur.equals(J1) ? J2 : J1; //Fin du tours, on change de joueur
+			dernierJoueur = dernierJoueur.equals(J1) ? J2 : J1; //Fin du tour, on change de joueur
     	}
    
     	if(valeurTour == 2) {
@@ -153,7 +153,7 @@ public class App implements Serializable
      * @param Joueur le joueur concerné par son tour
      * @return Renvoie 1 si le joueur à jouer, 0 si il passe
      */
-    private int tour() {
+    private int tour(int passer) {
     	int choix = -1;
     	
     	do {
@@ -162,11 +162,11 @@ public class App implements Serializable
 			if(sc.hasNextInt())
 				choix = sc.nextInt();
 			else
-				System.out.print("Entrez un chiffre (0:paser 1:jouer) : ");
+				System.out.print("Entrez un chiffre (0:passer 1:jouer 2:abandonner 3:sauvegarder) : ");
     	}while(choix < 0 || choix > 3); //On demande de passer ou de jouer ou d'abandonner ou de sauvegarder
     	
-    	if((choix == 1)) {
-    		//Si le joueur veut jouer
+    	if((choix == 1) && (passer!=1)) {
+    		//Si le joueur veut jouer et que celui d'avant n'a pas passé
     		faireJouer();		
     	}
 		return choix;
