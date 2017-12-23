@@ -133,6 +133,7 @@ public class Goban implements Serializable {
 					}
 					if(contient ==false)
 					{
+						territoires.add(new ArrayList<Pierre>());
 						construireTerritoire(pierres.get(index), place);
 						place++;
 					}else
@@ -140,6 +141,7 @@ public class Goban implements Serializable {
 						contient = false;
 					}
 				}else {
+					territoires.add(new ArrayList<Pierre>());
 					construireTerritoire(pierres.get(index), place);
 					place++;
 				}		
@@ -159,12 +161,17 @@ public class Goban implements Serializable {
 						Pierre pierreACote = getPierre(p.getPosition(), c); 
 						if(pierreACote != null) {//Si on regarde pas à l'exterieur du goban
 							if(pierreACote.getCouleur() != p.getCouleur()) {//Si une pierre a coté de la pierre qu'on test a une couleur differente que la pierre de la boucle
+								System.out.println("Couleur PIERRE VOISINE " + pierreACote.getCouleur() + pierreACote.getPosition());
 								if(pierreACote.getCouleur().toString() == "Noir")
 								{
 									n++;
+									System.out.println("couleur voisin n" + n);
+									System.out.println("couleur voisin b" + b);
 								}else if(pierreACote.getCouleur().toString() == "Blanc")
 								{
 									b++;
+									System.out.println("couleur voisin n" + n);
+									System.out.println("couleur voisin b" + b);
 								}
 							}
 						}
@@ -177,15 +184,21 @@ public class Goban implements Serializable {
 			}
 		}
 		for(List<Pierre> groupe : territoires) { //Pour tous les groupes
+			System.out.println("taille liste territoires" + territoires.size());
+			System.out.println("couleur voisin n " + noir.get(index));
+			System.out.println("couleur voisin b " + blanc.get(index));
 			if((blanc.get(index) != 0)&&(noir.get(index)!=0)) { // entouré de pierres differentes
 				territoires.get(index).clear(); //On efface son contenu
+				index++;
 			}else if((blanc.get(index) == 0)&&(noir.get(index)!=0)) // entouré de pierres noires
 			{
+				System.out.println("taille groupe n " + groupe.size());
 				pointN+=groupe.size();
 				index++;
 			}else if((blanc.get(index) != 0)&&(noir.get(index)==0)) // entouré de pierres blanches
 			{
-				pointB+=blanc.size();
+				System.out.println("taille groupe b " + groupe.size());
+				pointB+=groupe.size();
 				index++;
 			}
 		}
@@ -216,7 +229,7 @@ public class Goban implements Serializable {
 	}
 
 	private void construireTerritoire(Pierre pierre, int side) { //fonction qui permet de cree un territoire
-		territoires.add(new ArrayList<Pierre>());
+		
 		List<Pierre> aConstru = territoires.get(side);
 		if(pierre.getCouleur()!= Couleur.Vide) {
 			return;
