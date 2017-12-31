@@ -19,13 +19,9 @@ public class Joueur  implements Serializable {
 		return couleur;
 	}
 	
-	public void calculerScore(Goban goban) {
+	public int calculerScore(Goban goban) {
 		//Calculer score depuis le terrain
 		score = goban.nbCaptured(couleur);
-		return;
-	}
-	
-	public int getScore() {
 		return score;
 	}
 	

@@ -209,27 +209,17 @@ public class App implements Serializable
      */
 	final private void afficherScore() {
 		Joueur premier = J1, deuxieme = J2;
-		calculerScore();
+		goban.calculerTerritoires();
 		System.out.println("");
-		if(J1.getScore() == J2.getScore()) {
-			System.out.println(premier + " et " + deuxieme + " sont à égalité avec " + J1.getScore() + " points chacuns.");	
+		if(J1.calculerScore(goban) == J2.calculerScore(goban)) {
+			System.out.println(premier + " et " + deuxieme + " sont à égalité avec " + J1.calculerScore(goban) + " points chacuns.");	
 		} else {
-			if(J1.getScore() < J2.getScore()) {
+			if(J1.calculerScore(goban) < J2.calculerScore(goban)) {
 				premier = J2;
 				deuxieme = J1;
 			}
-			System.out.println(premier + " est en tête avec " + premier.getScore() + " points, contre " + deuxieme.getScore() + " points pour " + deuxieme + ".");
+			System.out.println(premier + " est en tête avec " + premier.calculerScore(goban) + " points, contre " + deuxieme.calculerScore(goban) + " points pour " + deuxieme + ".");
 		}		
-		return;
-	}
-	
-	/**
-	 * Calcule le score des joueurs à partir du plateau de jeu
-	 */
-	private void calculerScore() {
-		goban.calculerTerritoires();
-		J1.calculerScore(goban);
-		J2.calculerScore(goban);
 		return;
 	}
 	
